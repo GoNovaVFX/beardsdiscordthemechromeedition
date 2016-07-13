@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Beard's Material Design Discord theme for chrome",
+  "version": "1.2.8",
+  "description": "an extension to make discord more material",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://discordapp.com/*"]
+  }]
+
+}
