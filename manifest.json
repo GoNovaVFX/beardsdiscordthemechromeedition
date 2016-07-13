@@ -4,10 +4,16 @@
   "name": "Beard's Material Discord theme for chrome",
   "version": "1.3.5",
   "description": "an extension to make discord more material",
+  
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
 
-  "content_scripts": [{
+  "content_scripts": [ {
     "css": ["styles.css"],
     "matches": ["https://discordapp.com/*"]
-  }]
+
+  } ]
 
 }
